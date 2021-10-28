@@ -11,7 +11,7 @@ const ProgressBar = ({ item, className }) => {
             <div>
                 {
                     <div className='languageList'>
-                        <div className='value mt-3 mb-2 text-dark'>{item.value}</div>
+                        <div className='value my-2 text-dark'>{item.value}</div>
                         <div className="progressBar" style={{width:progressBar}}></div>
                     </div>
                     

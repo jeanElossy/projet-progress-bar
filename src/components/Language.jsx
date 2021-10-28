@@ -49,6 +49,8 @@ const Language = () => {
                     )
                 })
             }
+
+            <p className="name text-center mt-5">---------------------- Jean elossy ---------------------------</p>
         </div>
     )
 }
