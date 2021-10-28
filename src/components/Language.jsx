@@ -8,12 +8,12 @@ const Language = () => {
         {
             id: uniqueId,
             value: 'MongoDB',
-            xp: 1.3
+            xp: 1.6
         },
         {
             id: uniqueId,
             value: 'ExpressJs',
-            xp: 1.1
+            xp: 1.4
         },
         {
             id: uniqueId,
@@ -23,7 +23,7 @@ const Language = () => {
         {
             id: uniqueId,
             value: 'NodeJs',
-            xp: 1.7
+            xp: 1.8
         }
     ])
 
