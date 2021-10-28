@@ -31,7 +31,7 @@ const Language = () => {
     return (
         <div className='langage'>
             <div className="years d-flex mb-3 justify-content-between">
-                <div>Annee d'experience</div>
+                <div>Année d'experience</div>
                 <div>1 an</div>
                 <div>2 ans</div>
             </div>

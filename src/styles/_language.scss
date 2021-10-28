@@ -8,7 +8,8 @@
 
             div {
 
-                &:nth-child(2) {
+                &:nth-child(2),
+                &:nth-child(3){
                     position: relative;
 
                     &::after {
@@ -23,22 +24,6 @@
                     }
 
                 }
-                &:nth-child(3) {
-                    position: relative;
-
-                    &::after {
-                        position: absolute;
-                        top: 30px;
-                        left: 10px;
-                        content: "";
-                        height: 290px;
-                        width: 1px;
-                        background: rgba(102, 99, 99, 0.178);
-                        
-                    }
-
-                }
-
             }
         }
         .languageList {
