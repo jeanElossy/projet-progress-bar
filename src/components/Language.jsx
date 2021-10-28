@@ -23,14 +23,14 @@ const Language = () => {
         {
             id: uniqueId,
             value: 'NodeJs',
-            xp: 1.8
+            xp: 1.7
         }
     ])
 
 
     return (
         <div className='langage'>
-            <div className="years d-flex mb-4 justify-content-between">
+            <div className="years d-flex mb-3 justify-content-between">
                 <div>Annee d'experience</div>
                 <div>1 an</div>
                 <div>2 ans</div>
@@ -50,7 +50,9 @@ const Language = () => {
                 })
             }
 
-            <p className="name text-center mt-5">---------------------- Jean elossy ---------------------------</p>
+            <p className="name text-center mt-5">
+                ---------------------- Jean elossy ---------------------------
+            </p>
         </div>
     )
 }

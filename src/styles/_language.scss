@@ -1,12 +1,50 @@
 .langage {
-    width: 500px;
-    padding: 15px;
+    width: 100%;
     font-family: $font-1;
     font-weight: bold;
-  
+
+        .years {
+            position: relative;
+
+            div {
+
+                &:nth-child(2) {
+                    position: relative;
+
+                    &::after {
+                        position: absolute;
+                        top: 30px;
+                        left: 10px;
+                        content: "";
+                        height: 290px;
+                        width: 1px;
+                        background: rgba(102, 99, 99, 0.178);
+                        
+                    }
+
+                }
+                &:nth-child(3) {
+                    position: relative;
+
+                    &::after {
+                        position: absolute;
+                        top: 30px;
+                        left: 10px;
+                        content: "";
+                        height: 290px;
+                        width: 1px;
+                        background: rgba(102, 99, 99, 0.178);
+                        
+                    }
+
+                }
+
+            }
+        }
         .languageList {
             padding-top: .5rem;
             font-size: 1.5rem;
+
             .progressBar {
                 background: transparent;
                 height: .4rem;
@@ -25,10 +63,12 @@
                         to {
                             width: 100%;
                         }
+
                     }
                 }
             }
         }
+
     .name{
         font-size: .8rem;
     }
