@@ -1,0 +1,33 @@
+.langage {
+    width: 500px;
+    padding: 15px;
+
+        .languageList {
+            padding-top: .5rem;
+            .value{
+                color: brown; 
+            }
+            .progressBar {
+                background: transparent;
+                height: .4rem;
+                position: relative;
+
+                &::after{
+                    content: '';
+                    position: absolute;
+                    background: blue;
+                    border-radius: 50px;
+                    width: 0;
+                    height: 8px;
+                    animation: line 2s ease-in-out forwards;
+
+                    @keyframes line {
+                        to {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    
+}
