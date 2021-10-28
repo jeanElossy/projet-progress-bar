@@ -1,12 +1,12 @@
 .langage {
     width: 500px;
     padding: 15px;
-
+    font-family: $font-1;
+    font-weight: bold;
+    font-size: 1.3rem;
+    
         .languageList {
             padding-top: .5rem;
-            .value{
-                color: brown; 
-            }
             .progressBar {
                 background: transparent;
                 height: .4rem;
